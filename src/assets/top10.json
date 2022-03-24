@@ -1,0 +1,42 @@
+[
+    {
+        "rank": 1,
+        "name": "Harvard University"
+    },
+    {
+        "rank": 2,
+        "name": "Stanford University"
+    },
+    {
+        "rank": 3,
+        "name": "Massachusetts Institute of Technology"
+    },
+    {
+        "rank": 4,
+        "name": "University of California, Berkeley"
+    },
+    {
+        "rank": 5,
+        "name": "University of California, Los Angeles"
+    },
+    {
+        "rank": 6,
+        "name": "Yale University"
+    },
+    {
+        "rank": 7,
+        "name": "Columbia University"
+    },
+    {
+        "rank": 8,
+        "name": "Princeton University"
+    },
+    {
+        "rank": 9,
+        "name": "New York University"
+    },
+    {
+        "rank": 10,
+        "name": "University of Pennsylvania"
+    }
+]

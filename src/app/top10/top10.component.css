@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td, th {
+    width: 25%;
+}
+
+.results {
+    margin: 4%;
+}
+
+.results-table {
+    overflow-x: auto;
+}
+
+.top10 {
+    margin: 4%;
+}
+
+.results-table th {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.results-table td {
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
+
+.spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 50%;
+  right: 50%;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000004a;
+}
+
+.results {
+  margin: 4%;
+}
+
+.results-table {
+  overflow-x: auto;
+}
+
+.top10 {
+  margin: 4%;
+}
+
+.results-table th {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.results-table td {
+  text-align: center;
+}

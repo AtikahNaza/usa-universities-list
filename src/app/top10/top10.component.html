@@ -1,0 +1,39 @@
+<div class="top10">
+    <h3>Top 10 Universities in US</h3>
+    <div class="mat-elevation-z8">
+        <mat-table [dataSource]="dataSource" class="results-table">
+
+            <ng-container matColumnDef="rank">
+                <th mat-header-cell *matHeaderCellDef>Rank</th>
+                <td mat-cell *matCellDef="let row"> {{row.rank}} </td>
+            </ng-container>
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef>Name</th>
+                <td mat-cell *matCellDef="let row"> {{row.name}} </td>
+            </ng-container>
+            <ng-container matColumnDef="country">
+                <th mat-header-cell *matHeaderCellDef>Country</th>
+                <td mat-cell *matCellDef="let row"> {{row.country}} </td>
+            </ng-container>
+            <ng-container matColumnDef="domain">
+                <th mat-header-cell *matHeaderCellDef>Domains</th>
+                <td mat-cell *matCellDef="let row"> {{row.domains}} </td>
+            </ng-container>
+            <ng-container matColumnDef="alpha_two_code">
+                <th mat-header-cell *matHeaderCellDef>Code</th>
+                <td mat-cell *matCellDef="let row"> {{row.alpha_two_code}} </td>
+            </ng-container>
+            <ng-container matColumnDef="stateProvince">
+                <th mat-header-cell *matHeaderCellDef>Province</th>
+                <td mat-cell *matCellDef="let row"> {{row["state-province"]}} </td>
+            </ng-container>
+            <ng-container matColumnDef="web">
+                <th mat-header-cell *matHeaderCellDef>Web Pages</th>
+                <td mat-cell *matCellDef="let row"> {{row.web_pages}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </mat-table>
+    </div>
+</div>
